@@ -1,0 +1,78 @@
+$primColor: #B400FF;
+$logoFont: 'Press Start 2P', cursive;
+$mainFont: Lora, serif;
+$secondColor: #CC1477;
+$compColor: #B9FF00;
+
+.App {
+    text-align: center;
+  }
+  
+.hidden {
+    display:none
+}
+
+body{
+    font-family: $mainFont;
+}
+
+.jumbotron {
+    font-family: $logoFont;
+    background-color: black;
+    color: $primColor;
+    padding:3em;
+    text-align: center;
+}
+
+.shadow{
+    text-shadow: 1px 5px 8px $compColor;
+}
+
+.shadow-light {
+    text-shadow: 1px 2px 3px $compColor;
+}
+
+
+.box{
+    background-color: white;
+    height: auto;
+    width: 30em;
+    padding: 3em;
+}
+
+.col-sm {
+    display: inline-block;
+}
+
+.image {
+    height: 20em;
+    width: 20em;
+}
+
+.image2 {
+    height:50em;
+    width: auto;
+}
+
+.marginx2 {
+    margin: 2em;
+}
+
+.marginx1{
+    margin: 0.5em;
+}
+
+.button :hover{
+    color:$secondColor;
+}
+
+.link {
+    height: auto;
+    width: 15em;
+    font-size: 2em;
+    margin: auto;
+    font-weight: 700;
+    a {
+        color: $primColor;
+    }
+}

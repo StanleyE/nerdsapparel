@@ -1,0 +1,15 @@
+body {
+  font-family: Lora, serif; }
+
+.jumbotron {
+  font-family: "Press Start 2P", cursive;
+  background-color: black;
+  color: #B400FF;
+  padding: 3em;
+  text-align: center; }
+
+.shadow {
+  text-shadow: 1px 5px 8px #B9FF00; }
+
+.shadow-light {
+  text-shadow: 1px 2px 3px #B9FF00; }

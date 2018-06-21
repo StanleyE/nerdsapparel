@@ -1,0 +1,59 @@
+.App {
+  text-align: center; }
+
+.hidden {
+  display: none; }
+
+body {
+  font-family: Lora, serif; }
+
+.jumbotron {
+  font-family: "Press Start 2P", cursive;
+  background-color: black;
+  color: #B400FF;
+  padding: 3em;
+  text-align: center; }
+
+.shadow {
+  text-shadow: 1px 5px 8px #B9FF00; }
+
+.shadow-light {
+  text-shadow: 1px 2px 3px #B9FF00; }
+
+.box {
+  background-color: white;
+  height: auto;
+  width: 30em;
+  padding: 3em; }
+
+.image {
+  height: 20em;
+  width: 20em; }
+
+.image2 {
+  height: 50em;
+  width: auto; }
+
+.marginx2 {
+  margin: 2em; }
+
+.marginx1 {
+  margin: 0.5em; }
+
+.button :hover {
+  color: #CC1477; }
+
+.link {
+  height: auto;
+  width: 15em;
+  font-size: 2em;
+  margin: auto;
+  font-weight: 700; }
+  .link a {
+    color: #B400FF; }
+
+
+.col-sm{
+  display: inline-block;
+  margin: .50em;
+}
